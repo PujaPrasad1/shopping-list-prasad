@@ -1,0 +1,98 @@
+body { 
+    font-family: Arial, sans-serif; 
+    background: #f0f2f5 ;
+     margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+     } 
+     .container {
+        background: #ffffff;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        max-width: 400px;
+     width: 100%;
+            text-align: center; 
+        } 
+        h1 {
+            color: #333;
+            margin-bottom: 20px ;
+        }
+        form { 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+         } 
+         form input[type="text"] { 
+            width: calc(100% -20px);
+             padding: 10px; 
+             margin-bottom: 10px; 
+             border: 1px solid #ddd;
+             border-radius: 5px;
+             font-size: 16px;
+            } 
+            form button {
+                width: 100%;
+                 padding: 10px;
+                 border: none; 
+                 border-radius: 5px;
+                 background: #007bff;
+                 color: white;
+                 font-size: 16px;
+                 cursor: pointer; 
+                 margin-bottom: 10px;
+                 transition: background 0.3s;
+                } 
+                form button :hover {
+                    background: #0056b3;;
+                }
+                #update-btn {
+                    background: #218838;
+                }
+                #clear-btn {
+                    background: #dc3545;
+                }
+                #clear-btn:hover {
+                    background: #c82333;
+                }
+                #filter { 
+                    width: 100%;
+                     padding: 10px; 
+                     margin: 20px 0; 
+                     border: 1px solid #ddd;
+                     border-radius:5px;
+                     font-size: 16px;
+                    } 
+                    ul { 
+                        list-style-type: none;
+                         padding: 0; 
+                        } 
+                        ul li { 
+                            display: flex;
+                             justify-content: space-between;
+                              background: #f4f4f4;
+                              padding: 10px; 
+                              border: 1px solid #ddd; 
+                              border-radius: 5px;
+                              margin-bottom: 10px;
+                              transition: background 0.3s;
+                            } 
+                            ul li:hover {
+                                background: #e9ecef;
+                            }
+                            ul li button {
+                                 background: red; 
+                                 color: #fff;
+                                  border: none; 
+                                  border-radius: 5px;
+                                  cursor: pointer; 
+                                  padding: 5px 10px;
+                                  font-size: 14px;
+                                  transition: background 0.3s;
+                                } 
+                                ul li button:hover { 
+                                    background: #c82333; 
+                                }

@@ -1,0 +1,23 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping List</title>
+    <link rel="stylesheet" href="style.css"
+</head>
+<body>
+    <div class="container">
+        <h1>Shopping List</h1>
+        <form id="item-form">
+            <input type="text" id="item-input" placeholder="Add an item">
+            <button type="submit" id="add-btn">Add Item</button>
+            <button type="button" id="update-btn" style="display:none;">Update Item</button>
+            <button type="button" id="clear-btn">Clear Items</button>
+        </form> 
+        <input type="text" id="filter" placeholder="Filter items...">
+        <ul id="item-list"></ul>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
